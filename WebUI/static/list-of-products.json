@@ -1,0 +1,18 @@
+[
+{
+	"id": "samsung",
+	"name": "Apple",
+	"imageUrl": "apple.jpg",
+	"amount": 12,
+	"price": 5,
+	"expires": "2014-04-01"
+},
+{
+	"id": "samsung2",
+	"name": "Mango",
+	"imageUrl": "mango.jpg",
+	"amount": 5,
+	"price": 10,
+	"expires": "2014-04-02"
+}
+]

@@ -1,0 +1,20 @@
+    <div class="row product">
+     <div class="col-md-2 col-xs-8">
+        <img src="apple.jpg" />
+     </div>
+      <div class="col-md-8 col-xs-8 productInfo">
+        <h1>{{productInfo.name}} {{productInfo.amount}} pcs</h1>
+        <div> Price €{{productInfo.price}}</div>
+        <div> Expires {{productInfo.expires}}</div>
+        <div><button class="btn">One click buy</button></div>
+     </div>
+      </div>
+     <div class="row">
+    <h3>Related products</h3>
+    <div>
+       <div ng-repeat="product in recommendedProducts" ng-include="'template-product-item.html'" class="col-md-3 col-xs-8 item">
+       </div>
+    </div>
+    </div>
+</div>
+      

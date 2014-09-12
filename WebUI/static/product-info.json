@@ -1,0 +1,8 @@
+{
+	"id": "samsung",
+	"name": "Apple",
+	"imageUrl": "apple.jpg",
+	"amount": 5,
+	"price": 10,
+	"expires": "2014-04-01"
+}
