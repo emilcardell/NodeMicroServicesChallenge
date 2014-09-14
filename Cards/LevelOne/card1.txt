@@ -1,0 +1,60 @@
+Tier 1 - Getting started:
+Web för leverera menyn
+Web för leverera Recomended på startsidan
+Web för leverera alla paket i en "kategori"
+Web för leverera en produkt
+Web för leverera liknande produkter
+
+Service för att räkna ut pris.
+Service Rekommendera produkter uträking.
+Service för liknande produkter.
+Service för att räkna ut meny items.
+
+Special:
+> Web för Monitorering > En extra sida (Expirty check 2 min).
+
+
+Tier 2 - Better input = Better output:
+Web för att ta emot beställningar.
+Web som listar ordrar. > Extra sida.
+
+Serivce. Rekommenderade produkter ska räknas ut på vilken typ som mest är köpt.
+Service. Ta bort beställda produkter ur från kategori listan
+Service. Meny service som sorterade på mest beställda.
+Service. Liknande produkter ska inte visa produkter som inte finns.
+
+Service ta bort expirade produkter. 
+
+Tier 3.
+
+Personalisering - Make it personal:
+Web för att logga in (Session). > Logga in. Vänta 10 sekunder för att "räkna om allt."
+Web. Visa mina ordrar. 
+Web menyn ska kunna visa personliga val.
+Web rekommenderade ska kunna visa personliga val.
+Web Kategorilista ska kunna visa personliga val.
+
+Service. Liknande produkter ska vara produkter som oxå beställdes av samma person.
+Service. Rekommenderade produkter ska beräknas på vad man har beställt tidigare.
+Service. Personlig meny. Typen av produkter man beställt mest av först.
+Service. Kategorilistan ska vara sorterade efter de antalet köper mest.
+
+
+
+
+Service name: SuperSimplePriceEngine
+
+Inputs:
+ChannelName: FruitDelivery
+Example message:
+{
+	id: 'skjAKLJJASD'
+	name: 'Banana',
+	amount: 5
+	expires: '2014-01-01 10:10:10'
+}
+
+Output
+ChannelName: CalculatedPrice
+Priority: 1
+

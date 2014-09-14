@@ -16,5 +16,9 @@
     "url": "https://github.com/emilcardell/NodeMicroServicesChallenge/issues"
   },
   "dependencies": {
+    "amqplib": "~0.2.1",
+    "when": "~3.4.5",
+    "sugar": "~1.4.1",
+    "shortid": "~2.0.1"
   }
 }
